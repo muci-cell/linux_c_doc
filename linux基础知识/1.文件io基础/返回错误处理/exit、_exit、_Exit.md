@@ -92,13 +92,7 @@ exit()函数\_exit()函数都是用来终止进程的，exit()是一个标准 C 
 
 执行 exit()会执行一些清理工作，最后调用\_exit()函数。exit()函数原型如下：
 
-#include <stdlib.h>原子哥在线教学：www.yuanzige.com 论坛：http://www.openedv.com/forum.php
-
-68
-
-I.MX6U
-
-嵌入式 Linux C 应用编程指南
+#include <stdlib.h>
 
 void exit(int status);
 
